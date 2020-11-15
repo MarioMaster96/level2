@@ -25798,7 +25798,7 @@ if (!("swf2js" in window)){(function(window)
                     container.appendChild(div);
                 }
             } else {
-                _document.body.insertAdjacentHTML("beforeend", "<div id='" + _this.getName() + "'></div>");
+                document.body.insertAdjacentHTML("beforeend", "<div id='" + _this.getName() + "'></div>");
             }
         }
 
